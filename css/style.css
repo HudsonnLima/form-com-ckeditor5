@@ -1,0 +1,36 @@
+/* 
+    Document   : admin css
+    Author     : Dinho Lima
+    Description: Formata o painel admin.
+*/
+
+
+
+.ck-editor__editable_inline {min-height: 400px;}
+
+#preview {margin-top: 30px;width: 80%;height: auto;margin: 0 auto;margin-left: 20%}
+/*UPLOAD PREVIEW*/
+.img-thumbs {background: #e7e6e6;border: 0px solid #e7e6e6;border-radius: 0.25rem;margin: 1.5rem 0;padding: 0.75rem;}
+.img-thumbs-hidden {display: none;}
+
+#foto {display: block;position: relative;width: 100%;background-color: #025bee;color: #fff;font-size: 18px;text-align: center;padding: 15px;border-radius: 5px;cursor: pointer;}
+input[type="file"] {display: none;}
+
+.center {height:100%;display:flex;align-items:center;justify-content:center;}
+.form-input {width:350px;padding:20px;background:#fff;box-shadow: -3px -3px 7px rgba(94, 104, 121, 0.377),3px 3px 7px rgba(94, 104, 121, 0.377);}
+.form-input img {width:100%;display:none;margin-bottom:30px;}
+
+.form-input input {display:none;}
+.form-input label {display:block;width:45%;height:45px;margin-left: 25%;line-height:50px;text-align:center;background:#1172c2;color:#fff;font-size:15px;
+font-family:"Open Sans",sans-serif;text-transform:Uppercase;font-weight:600;border-radius:5px;cursor:pointer;}
+
+.img-thumbs {background: #e7e6e6;border: 0px solid #e7e6e6;border-radius: 0.25rem;margin: 1.5rem 0;padding: 0.75rem;}
+.img-thumbs-hidden {display: none;}
+.wrapper-thumb {position: relative;display:inline-block;margin: 1rem 0;justify-content: space-around;}
+.img-preview-thumb {background: transparent;border: 1px solid none;border-radius: 0.25rem;box-shadow: 0.125rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.12);
+margin-right: 1rem;max-width: 250px;padding: 0.25rem;width: 250px;height: 150px;}
+.remove-btn{position:absolute;display:flex;justify-content:center;align-items:center;font-size:.7rem;top:-5px;
+right:10px;width:20px;height:20px;color:#000;background:rgb(255, 255, 255);border-radius:10px;font-weight:bold;cursor:pointer;}
+.remove-btn:hover{box-shadow: 0px 0px 3px grey;transition:all .3s ease-in-out;}
+  
+#image-gallery {display: flex;flex-wrap: wrap;gap: 10px;}
